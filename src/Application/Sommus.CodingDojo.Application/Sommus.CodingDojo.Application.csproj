@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Sommus.CodingDojo.Domain\Sommus.CodingDojo.Domain.csproj" />
+    <ProjectReference Include="..\..\Data\Sommus.CodingDojo.Data.ADO\Sommus.CodingDojo.Data.ADO.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+  </ItemGroup>
+</Project>
